@@ -1,0 +1,48 @@
+a:hover{
+    text-decoration: none;
+}
+
+.tile{
+    width:100%;
+}
+
+.tile a{
+    border:2px solid transparent;
+    background-color: #fff;
+}
+
+.tile a, .tile a:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.tile a:hover{
+    box-shadow: none !important;
+    border:2px solid #007bff;
+}
+
+@media (min-width: 576px) {
+    .tile{
+        width:100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .tile{
+        width:50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .tile{
+        width:50%;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .tile{
+        width:25%;
+    }
+}
+
