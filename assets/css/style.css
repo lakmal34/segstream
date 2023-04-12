@@ -6,6 +6,10 @@ a:hover{
     width:100%;
 }
 
+.tile-2{
+    width:100%;
+}
+
 .tile a{
     border:2px solid transparent;
     background-color: #fff;
@@ -44,4 +48,65 @@ a:hover{
     .tile{
         width:25%;
     }
+}
+
+
+@media (min-width: 576px) {
+    .tile-2{
+        width:100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .tile-2{
+        width:50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .tile-2{
+        width:50%;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .tile-2{
+        width:33.33%;
+    }
+}
+
+
+.text-xs{
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.text-sm{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.text-md{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.completed-step{
+    color: var(--success);
+    border-color: var(--success) !important;
+    cursor: pointer;
+}
+.completed-step:hover{
+    color: var(--success);
+    border-color: var(--success) !important;
+}
+.current-step{
+    color: var(--primary);
+    border-color: var(--primary) !important;
+    cursor: pointer;
+}
+.current-step:hover{
+    color: var(--primary);
+    border-color: var(--primary) !important;
 }
