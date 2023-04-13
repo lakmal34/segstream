@@ -110,3 +110,13 @@ a:hover{
     color: var(--primary);
     border-color: var(--primary) !important;
 }
+
+.next-step{
+    color: var(--secondary);
+    cursor: pointer;
+}
+
+.next-step:hover{
+    color: var(--secondary);
+    cursor: pointer;
+}
